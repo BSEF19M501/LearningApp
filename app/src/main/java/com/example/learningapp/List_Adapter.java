@@ -24,6 +24,8 @@ public class List_Adapter extends ArrayAdapter<Alphabet> {
 
     @NonNull
     @Override
+
+    // adapter added
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         Alphabet abc=getItem(position);
         convertView= LayoutInflater.from(getContext()).inflate(R.layout.activity_list__adapter,parent,false);

@@ -7,6 +7,8 @@
     android:background="@color/purple_200"
     tools:context=".MainActivity4">
 
+    <!--list view added-->
+
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
